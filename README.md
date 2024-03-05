@@ -20,7 +20,7 @@
 **애플리케이션 현대화에 관련된 언어 모델 지원 기능 설계 및 개발 PoC 진행**
 
 - OpenAI retrieval augmented generation
-    - 개요: chatgpt와 같은 LLM에 [Prompt engineering](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md) 기법 중 RAG (Retrieval Augmendted Generation) 기법을 활용하여 사내 혹은 전문적인 지식 기반으로 사용자 질의에 응답할 수 있는 모델 구축
+    - 개요: chatgpt와 같은 LLM에 [Prompt engineering](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md) 기법 중 [RAG (Retrieval Augmendted Generation)](https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts) 기법을 활용하여 사내 혹은 전문적인 지식 기반으로 사용자 질의에 응답할 수 있는 모델 구축
     - 언어/프레임워크/플랫폼: Python, markdown, FAISS, Chroma DB
     - GitHub: [https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md](https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md)
 
