@@ -88,7 +88,7 @@
 - 개요: Atmel 사 Wi-fi 리눅스 커널 드라이버 개발 및 Linux staging에 pull request 수행
 - 역할: 한국 Atmel wi-Fi 리눅스 커널 디바이스 드라이버 개발 및 maintainer로 Greg (https://en.wikipedia.org/wiki/Greg_Kroah-Hartman)에게 git pull request 전달하여 Linux staging 브랜치에 merge 작업을 진행 (2015년 ~ 2016년)
 - 언어: C language
-- Contrinution history (일부): 전체 contibution history는 첨부의 history-full.csv 또는 history-short.csv 참조
+- Contrinution history (일부): 전체 contibution history는 첨부의 [history-full.csv](history-full.csv) 또는 [history-short.csv](history-short.csv) 참조
 
 ```bash
 0d413ba46e0f: Tony Cho Mon Feb 29 18:02:39 2016 +0900: staging: wilc1000: wilc_wlan_if.h: remove unused functions

@@ -1,0 +1,339 @@
+0d413ba46e0f: Tony Cho Mon Feb 29 18:02:39 2016 +0900: staging: wilc1000: wilc_wlan_if.h: remove unused functions
+4b1e380bdb82: Tony Cho Wed Feb 24 19:01:38 2016 +0900: staging: wilc1000: wilc_wlan.c: remove multiple blank line
+06f3e89332ba: Tony Cho Wed Feb 24 19:01:37 2016 +0900: staging: wilc1000: wilc_wlan.c: remove unnecessary blank lines
+4be55e228724: Leo Kim Wed Oct 28 15:59:27 2015 +0900: staging: wilc1000: rename au8StartTime of struct join_bss_param
+0c9dbce89606: Tony Cho Wed Oct 28 17:43:27 2015 +0900: staging: wilc1000: change MAINTAINERS
+dbef61e749ca: Leo Kim Wed Oct 28 15:27:21 2015 +0900: staging: wilc1000: wilc_msgqueue.c : remove goto statement
+2c1d05d103f9: Glen Lee Tue Oct 20 17:14:03 2015 +0900: staging: wilc1000: init_irq: change argument and use netdev private wilc
+684dc1861c9e: Glen Lee Tue Oct 20 17:14:02 2015 +0900: staging: wilc1000: start_ap: use netdev private data wilc
+1b86935eb98e: Glen Lee Tue Oct 20 17:14:01 2015 +0900: staging: wilc1000: wilc_mgmt_frame_register: use netdev private wilc
+692e2aceffd0: Glen Lee Tue Oct 20 17:14:00 2015 +0900: staging: wilc1000: del_key: use netdev private wilc instead of g_linux_wlan
+7646920087bc: Glen Lee Tue Oct 20 17:13:59 2015 +0900: staging: wilc1000: add_key: use netdev private wilc instead of g_linux_wlan
+c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgConnectResult: use netdev private wilc
+53dc0cfea3cf: Glen Lee Tue Oct 20 17:13:57 2015 +0900: staging: wilc1000: wilc1000_wlan_deinit: change argument and use wilc
+299382cf437d: Glen Lee Tue Oct 20 17:13:56 2015 +0900: staging: wilc1000: chage_virtual_intf: use netdev private wilc
+ca64ad6e6436: Glen Lee Tue Oct 20 17:13:55 2015 +0900: staging: wilc1000: mac_close: use netdev private wilc instead of g_linux_wlan
+f3c1366ebbdf: Glen Lee Tue Oct 20 17:13:54 2015 +0900: staging: wilc1000: mac_open: use netdev private wilc
+38afb390497a: Glen Lee Tue Oct 20 17:13:53 2015 +0900: staging: wilc1000: wlan_init_locks: change parameter and use wilc
+0fa683b66524: Glen Lee Tue Oct 20 17:13:52 2015 +0900: staging: wilc1000: wilc1000_wlan_init: use netdev private wilc
+38b3001de95a: Glen Lee Tue Oct 20 17:13:51 2015 +0900: staging: wilc1000: add wilc to netdev private data structure
+c0f52fbac74e: Tony Cho Tue Oct 20 17:10:46 2015 +0900: staging: wilc1000: fix the bug on copying bssid
+12ba5416dc77: Tony Cho Tue Oct 20 14:26:56 2015 +0900: staging: wilc1000: assign pointer of g_linux_wlan to sdio device data
+75ce07d4a09e: Tony Cho Tue Oct 20 14:26:55 2015 +0900: staging: wilc1000: introduce struct wilc_sdio for sdio data
+b46d68825c2d: Tony Cho Tue Oct 20 14:26:54 2015 +0900: staging: wilc1000: remove COMPLEMENT_BOOT
+8b8ad7bc90bc: Tony Cho Tue Oct 20 14:26:53 2015 +0900: staging: wilc1000: rename wilc_firmware in the struct wilc
+4875c499dc9b: Tony Cho Tue Oct 20 14:26:52 2015 +0900: staging: wilc1000: move clean up codes into wl_wlan_cleanup function
+817f3fb98864: Tony Cho Tue Oct 20 14:26:51 2015 +0900: staging: wilc1000: rename wilc_netdev in the struct wilc_vif
+3134a57875e2: Tony Cho Tue Oct 20 14:26:50 2015 +0900: staging: wilc1000: rename drvHandler in the struct wilc_vif
+7201cd2ca5d0: Tony Cho Tue Oct 20 14:26:49 2015 +0900: staging: wilc1000: rename aBSSID in the sturct wilc_vif
+7e7fa470efb6: Tony Cho Tue Oct 20 14:26:48 2015 +0900: staging: wilc1000: rename aSrcAddress in the struct wilc_vif
+8259a53e1c88: Tony Cho Tue Oct 20 14:26:47 2015 +0900: staging: wilc1000: rename strInterfaceInfo in the sturct wilc
+c1b30f6a3416: Tony Cho Tue Oct 20 14:26:46 2015 +0900: staging: wilc1000: rename u8NoIfcs in the struct wilc
+080f11bb3782: Tony Cho Tue Oct 20 14:26:45 2015 +0900: staging: wilc1000: change the type of wilc1000_initialized
+91109e113c71: Leo Kim Mon Oct 19 18:26:13 2015 +0900: staging: wilc1000: fixes comparison to NULL could be written
+8c8360b3f939: Leo Kim Mon Oct 19 18:26:12 2015 +0900: staging: wilc1000: fixes alignment should match open parenthesis
+771788078a5c: Leo Kim Mon Oct 19 18:26:11 2015 +0900: staging: wilc1000: fixes unnecessary variable replacement
+9f3295a2dd08: Leo Kim Mon Oct 19 18:26:10 2015 +0900: staging: wilc1000: move variable FALSE_FRMWR_CHANNEL
+7178aed8ec17: Leo Kim Mon Oct 19 18:26:09 2015 +0900: staging: wilc1000: move variable clients_count
+31390eec7dce: Leo Kim Mon Oct 19 18:26:08 2015 +0900: staging: wilc1000: rename variable s32Error
+870515c11389: Leo Kim Thu Oct 15 13:25:15 2015 +0900: staging: wilc1000: rename variable gu8FlushedJoinReqDrvHandler
+dfef7b84e877: Leo Kim Thu Oct 15 13:25:14 2015 +0900: staging: wilc1000: rename variable gu32FlushedInfoElemAsocSize
+0626baaacfe3: Leo Kim Thu Oct 15 13:25:13 2015 +0900: staging: wilc1000: rename variable gu32FlushedJoinReqSize
+fba4989eb25a: Leo Kim Thu Oct 15 13:25:12 2015 +0900: staging: wilc1000: rename variable gu8FlushedAuthType
+1bd9d44c5106: Leo Kim Thu Oct 15 13:25:11 2015 +0900: staging: wilc1000: rename variable gu8Flushed11iMode
+48ce24654e3a: Leo Kim Thu Oct 15 13:25:10 2015 +0900: staging: wilc1000: rename variable gu8FlushedInfoElemAsoc
+044a641014b3: Leo Kim Thu Oct 15 13:25:09 2015 +0900: staging: wilc1000: rename variable gu8FlushedJoinReq
+7a9adb051cd1: Leo Kim Thu Oct 15 13:25:08 2015 +0900: staging: wilc1000: remove unused variable gu32WidConnRstHack
+a74c7bf86c62: Leo Kim Thu Oct 15 13:25:07 2015 +0900: staging: wilc1000: rename variable gu8DelBcn
+ad26906ff6a2: Leo Kim Thu Oct 15 13:25:06 2015 +0900: staging: wilc1000: rename variable gu32InactiveTime
+1e75d01c6da6: Leo Kim Thu Oct 15 13:25:05 2015 +0900: staging: wilc1000: rename variable gs8GetIP
+078b1e98be88: Leo Kim Thu Oct 15 13:25:04 2015 +0900: staging: wilc1000: rename variable gs8SetIP
+95ebb0ffe4e2: Leo Kim Thu Oct 15 13:25:03 2015 +0900: staging: wilc1000: rename variable gu8Chnl
+75327a0244b7: Leo Kim Thu Oct 15 13:25:02 2015 +0900: staging: wilc1000: rename variable gs8lnkspd
+144b7b233644: Leo Kim Thu Oct 15 13:25:01 2015 +0900: staging: wilc1000: rename variable gs8Rssi
+ca8540e4d79c: Leo Kim Thu Oct 15 13:25:00 2015 +0900: staging: wilc1000: rename variable gbScanWhileConnected
+a633c0b5d563: Leo Kim Thu Oct 15 13:24:59 2015 +0900: staging: wilc1000: rename variable gapu8RcvdAssocResp
+262f55e1543e: Leo Kim Thu Oct 15 13:24:58 2015 +0900: staging: wilc1000: rename variable g_hPeriodicRSSI
+440e8993d125: Leo Kim Thu Oct 15 13:24:57 2015 +0900: staging: wilc1000: rename variable hSemHostIntDeinit
+2d25af87768e: Leo Kim Thu Oct 15 13:24:56 2015 +0900: staging: wilc1000: rename variable hWaitResponse
+27ff21681b43: Leo Kim Thu Oct 15 13:24:55 2015 +0900: staging: wilc1000: rename variable hSemDeinitDrvHandle
+834e0cb01db0: Leo Kim Thu Oct 15 13:24:54 2015 +0900: staging: wilc1000: rename variable hSemHostIFthrdEnd
+cb067dcf211f: Leo Kim Thu Oct 15 13:24:53 2015 +0900: staging: wilc1000: rename variable gMsgQHostIF
+c2115d8ef82d: Leo Kim Thu Oct 15 13:24:52 2015 +0900: staging: wilc1000: rename variable HostIFthreadHandler
+4fb770d64e0e: Leo Kim Thu Oct 15 13:24:51 2015 +0900: staging: wilc1000: remove unused variable gWFiDrvHandle
+1d8b76b31824: Leo Kim Thu Oct 15 13:24:49 2015 +0900: staging: wilc1000: rename au8Interval of struct join_bss_param
+109e6cab4804: Leo Kim Thu Oct 15 13:24:48 2015 +0900: staging: wilc1000: rename au8Duration of struct join_bss_param
+cc179008425b: Leo Kim Thu Oct 15 13:24:47 2015 +0900: staging: wilc1000: rename u8Index of struct join_bss_param
+c21047edfa56: Leo Kim Thu Oct 15 13:24:46 2015 +0900: staging: wilc1000: rename u8Count of struct join_bss_param
+99b669453b3e: Leo Kim Thu Oct 15 13:24:45 2015 +0900: staging: wilc1000: rename u8CtWindow of struct join_bss_param
+d72b33caee47: Leo Kim Thu Oct 15 13:24:44 2015 +0900: staging: wilc1000: rename u8OppEnable of struct join_bss_param
+7a8d51d776b7: Leo Kim Thu Oct 15 13:24:43 2015 +0900: staging: wilc1000: rename u8NoaEnbaled of struct join_bss_param
+619d27b88ced: Leo Kim Thu Oct 15 13:24:42 2015 +0900: staging: wilc1000: rename ssidLen of struct join_bss_param
+1a08bc43c4c8: Tony Cho Wed Oct 14 20:46:32 2015 +0900: staging: wilc1000: remove typedef from the tstrInterfaceInfo
+f61c5aff3b42: Tony Cho Wed Oct 14 20:46:30 2015 +0900: staging: wilc1000: remove typedef from the linux_wlan_t
+9b7ecb01886b: Tony Cho Wed Oct 14 20:46:29 2015 +0900: staging: wilc1000: remove extern declarations of g_linux_wlan
+3bffac68bfd7: Leo Kim Tue Oct 13 20:02:11 2015 +0900: staging: wilc1000: rename u32Length of struct rcvd_net_info
+b021b80b4260: Leo Kim Tue Oct 13 20:02:10 2015 +0900: staging: wilc1000: rename pu8Buffer of struct rcvd_net_info
+78675be5a285: Leo Kim Tue Oct 13 20:02:09 2015 +0900: staging: wilc1000: rename au8IPAddr of struct set_ip_addr
+937918ff160d: Leo Kim Tue Oct 13 20:02:08 2015 +0900: staging: wilc1000: rename u32Timeout of struct power_mgmt_param
+33c70c1b39ad: Leo Kim Tue Oct 13 20:02:07 2015 +0900: staging: wilc1000: rename bIsEnabled of struct power_mgmt_param
+e4839d39b401: Leo Kim Tue Oct 13 20:02:06 2015 +0900: staging: wilc1000: rename au8MacAddr of struct del_sta
+adab2f715b8b: Leo Kim Tue Oct 13 20:02:05 2015 +0900: staging: wilc1000: rename u32count of struct set_multicast
+bae636eb5a5c: Leo Kim Tue Oct 13 20:02:04 2015 +0900: staging: wilc1000: rename bIsEnabled of struct set_multicast
+8ba1803ff5c9: Leo Kim Tue Oct 13 19:50:10 2015 +0900: staging: wilc1000: rename u8Num_AssocSta of struct del_all_sta
+e51b921639c2: Leo Kim Tue Oct 13 19:50:09 2015 +0900: staging: wilc1000: rename au8Sta_DelAllSta of struct del_all_sta
+7dbcb6d37a07: Leo Kim Tue Oct 13 19:50:08 2015 +0900: staging: wilc1000: rename pu8Tail of struct beacon_attr
+030c57e28ec8: Leo Kim Tue Oct 13 19:50:07 2015 +0900: staging: wilc1000: rename u32TailLen of struct beacon_attr
+8ce528b9a832: Leo Kim Tue Oct 13 19:50:06 2015 +0900: staging: wilc1000: rename pu8Head of struct beacon_attr
+51c6618590f1: Leo Kim Tue Oct 13 19:50:05 2015 +0900: staging: wilc1000: rename u32HeadLen of struct beacon_attr
+e76ab7708a9b: Leo Kim Tue Oct 13 19:50:04 2015 +0900: staging: wilc1000: rename u32DTIMPeriod of struct beacon_attr
+12262ddac66f: Leo Kim Tue Oct 13 19:50:03 2015 +0900: staging: wilc1000: rename u32Interval of struct beacon_attr
+730ee059d4ea: Leo Kim Tue Oct 13 19:50:02 2015 +0900: staging: wilc1000: rename u8SetChan of struct channel_attr
+f94f4889ad2e: Leo Kim Tue Oct 13 19:50:01 2015 +0900: staging: wilc1000: rename u32Length of struct rcvd_async_info
+33722ac768c4: Leo Kim Tue Oct 13 19:50:00 2015 +0900: staging: wilc1000: rename pu8Buffer of struct rcvd_async_info
+f2bed2caaeb8: Leo Kim Tue Oct 13 19:49:59 2015 +0900: staging: wilc1000: rename pJoinParams of struct connect_attr
+0d1527e65b6e: Leo Kim Tue Oct 13 19:49:58 2015 +0900: staging: wilc1000: rename u8channel of struct connect_attr
+61b4fd022f44: Leo Kim Tue Oct 13 19:49:57 2015 +0900: staging: wilc1000: rename tenuAuth_type of struct connect_attr
+8f38db897be4: Leo Kim Tue Oct 13 19:49:56 2015 +0900: staging: wilc1000: rename pvUserArg of struct connect_attr
+6abcc11dba58: Leo Kim Tue Oct 13 19:49:55 2015 +0900: staging: wilc1000: rename pfConnectResult of struct connect_attr
+a64fd6772b04: Leo Kim Tue Oct 13 19:49:54 2015 +0900: staging: wilc1000: rename u8security of struct connect_attr
+b59d5c5b57b6: Leo Kim Tue Oct 13 19:49:53 2015 +0900: staging: wilc1000: rename IEsLen of struct connect_attr
+2ea158c47544: Leo Kim Tue Oct 13 19:49:52 2015 +0900: staging: wilc1000: rename pu8IEs of struct connect_attr
+8b3c9fa68bd8: Leo Kim Tue Oct 13 19:49:51 2015 +0900: staging: wilc1000: rename ssidLen of struct connect_attr
+f7bbd9cf99d3: Leo Kim Tue Oct 13 19:49:50 2015 +0900: staging: wilc1000: rename pu8ssid of struct connect_attr
+9254db077a17: Leo Kim Tue Oct 13 19:49:49 2015 +0900: staging: wilc1000: rename pu8bssid of struct connect_attr
+d79fd35b8c5d: Leo Kim Tue Oct 13 19:49:48 2015 +0900: staging: wilc1000: remove duplicate copy routine
+f2fc9f6e957b: Leo Kim Tue Oct 13 19:49:47 2015 +0900: staging: wilc1000: fix "ERROR: do not initialise globals to 0 or NULL"
+629b9ca02231: Leo Kim Tue Oct 13 19:49:46 2015 +0900: staging: wilc1000: rename strHiddenNetwork of struct scan_attr
+5f2b50c8dbe6: Leo Kim Tue Oct 13 19:49:45 2015 +0900: staging: wilc1000: rename pvUserArg of struct scan_attr
+c17c6da65957: Leo Kim Tue Oct 13 19:49:44 2015 +0900: staging: wilc1000: rename pfScanResult of struct scan_attr
+7b1f76cd036e: Leo Kim Tue Oct 13 19:49:43 2015 +0900: staging: wilc1000: rename IEsLen of struct scan_attr
+d6f19aa5b58a: Leo Kim Tue Oct 13 19:49:42 2015 +0900: staging: wilc1000: rename pu8IEs of struct scan_attr
+f97bd9cab807: Leo Kim Tue Oct 13 19:49:41 2015 +0900: staging: wilc1000: rename u8ChnlListLen of struct scan_attr
+82eeb0ad3c63: Leo Kim Tue Oct 13 19:49:40 2015 +0900: staging: wilc1000: rename pu8ChnlFreqList of struct scan_attr
+97b457d7e2ad: Leo Kim Tue Oct 13 19:49:39 2015 +0900: staging: wilc1000: remove duplicate null check routine
+1e276c884286: Leo Kim Tue Oct 13 19:49:38 2015 +0900: staging: wilc1000: rename u8ScanType of struct scan_attr
+425688986a08: Leo Kim Tue Oct 13 19:49:37 2015 +0900: staging: wilc1000: rename u8ScanSource of struct scan_attr
+7b2ebb28b850: Leo Kim Tue Oct 13 19:49:36 2015 +0900: staging: wilc1000: rename u8Ciphermode of struct host_if_wpa_attr
+6acf2919b31e: Leo Kim Tue Oct 13 19:49:35 2015 +0900: staging: wilc1000: rename u8Keylen of struct host_if_wpa_attr
+e2dfbac54e82: Leo Kim Tue Oct 13 19:49:34 2015 +0900: staging: wilc1000: rename u8keyidx of struct host_if_wpa_attr
+dacc594dab7a: Leo Kim Tue Oct 13 19:49:33 2015 +0900: staging: wilc1000: rename u8seqlen of struct host_if_wpa_attr
+0e74c0096271: Leo Kim Tue Oct 13 19:49:32 2015 +0900: staging: wilc1000: rename pu8seq of struct host_if_wpa_attr
+248080aa2a31: Leo Kim Tue Oct 13 19:49:31 2015 +0900: staging: wilc1000: rename pu8macaddr of struct host_if_wpa_attr
+124968fcc0ef: Leo Kim Tue Oct 13 19:49:30 2015 +0900: staging: wilc1000: rename pu8key of struct host_if_wpa_attr
+73b2e381d2ee: Leo Kim Tue Oct 13 19:49:29 2015 +0900: staging: wilc1000: rename uniHostIFkeyAttr of struct key_attr
+0d17e38201ec: Leo Kim Tue Oct 13 19:49:28 2015 +0900: staging: wilc1000: rename u8KeyAction of struct key_attr
+8e9f427a3e93: Leo Kim Tue Oct 13 19:49:27 2015 +0900: staging: wilc1000: rename enuKeyType of struct key_attr
+ae4dfa572a7e: Leo Kim Tue Oct 13 19:49:26 2015 +0900: staging: wilc1000: host_interface.c : remove over-commenting
+7fa252e7ef37: Tony Cho Mon Oct 12 16:56:15 2015 +0900: staging: wilc1000: rename tenuAuth_type of struct host_if_wep_attr
+b5eaff1278a2: Tony Cho Mon Oct 12 16:56:14 2015 +0900: staging: wilc1000: rename u8mode of struct host_if_wep_attr
+259b3aa61efb: Tony Cho Mon Oct 12 16:56:13 2015 +0900: staging: wilc1000: rename u8Wepidx of struct host_if_wep_attr
+d520e3552205: Tony Cho Mon Oct 12 16:56:12 2015 +0900: staging: wilc1000: rename u8WepKeylen of struct host_if_wep_attr
+e5538d34b323: Tony Cho Mon Oct 12 16:56:11 2015 +0900: staging: wilc1000: rename pu8WepKey of struct host_if_wep_attr
+610e38680fdc: Tony Cho Mon Oct 12 16:56:10 2015 +0900: staging: wilc1000: rename strHostIFpmkidAttr of union host_if_key_attr
+e3501a4d7c0b: Tony Cho Mon Oct 12 16:56:09 2015 +0900: staging: wilc1000: rename strHostIFwpaAttr of union host_if_key_attr
+2ed7a2fbddcd: Tony Cho Mon Oct 12 16:56:08 2015 +0900: staging: wilc1000: rename strHostIFwepAttr of union host_if_key_attr
+87c05b286316: Tony Cho Mon Oct 12 16:56:07 2015 +0900: staging: wilc1000: rename u32SetCfgFlag of struct cfg_param_val
+221371e5b286: Tony Cho Mon Oct 12 16:56:06 2015 +0900: staging: wilc1000: rename pstrCfgParamVal in struct cfg_param_attr
+a4ab1ade75a3: Tony Cho Mon Oct 12 16:56:05 2015 +0900: staging: wilc1000: replace drvHandler and hWFIDrv with hif_drv
+60bd1003e104: Tony Cho Mon Oct 12 16:56:04 2015 +0900: staging: wilc1000: remove wilc_wlan.c included in wilc_wfi_cfgoperations.c
+f6e55e043f9f: Tony Cho Mon Oct 12 16:56:03 2015 +0900: staging: wilc1000: host_infterface.h: remove unused enum tenuWILC_StaFlag
+7696edf4d57f: Leo Kim Mon Oct 12 16:56:02 2015 +0900: staging: wilc1000: remove typedef from tenuScanConnTimer
+ed3f0379a272: Leo Kim Mon Oct 12 16:56:01 2015 +0900: staging: wilc1000: remove typedef from tenuConnDisconnEvent
+200ac21b0de0: Leo Kim Mon Oct 12 16:56:00 2015 +0900: staging: wilc1000: rename typedef from tenuCfgParam
+1ec3815f38d7: Leo Kim Mon Oct 12 16:55:59 2015 +0900: staging: wilc1000: remove typedef from tenuScanEvent
+03e7b9c4283b: Leo Kim Mon Oct 12 16:55:58 2015 +0900: staging: wilc1000: remove typedef from tstrStatistics
+4ef4d1959327: Leo Kim Mon Oct 12 16:55:57 2015 +0900: staging: wilc1000: remove unused struct cfg_param_t
+8b58a2b6580e: Leo Kim Mon Oct 12 16:55:56 2015 +0900: staging: wilc1000: remove unused struct WILC_WFIDrvHandle
+ad61fcea233c: Leo Kim Mon Oct 12 16:55:55 2015 +0900: staging: wilc1000: remove typedef from tstrHiddenNetworkInfo
+73735e493836: Leo Kim Mon Oct 12 16:55:54 2015 +0900: staging: wilc1000: remove typedef from tstrFoundNetworkInfo
+db9f1b1284d7: Leo Kim Mon Oct 12 16:55:53 2015 +0900: staging: wilc1000: remove typedef from tenuHostIFstate
+c944a4e8ad2f: Leo Kim Mon Oct 12 16:55:52 2015 +0900: staging: wilc1000: remove typedef from tstrWILC_UsrConnReq
+b4fe59d8e869: Leo Kim Mon Oct 12 16:55:51 2015 +0900: staging: wilc1000: remove typedef from tstrWILC_UsrScanReq
+541963223be3: Leo Kim Mon Oct 12 16:55:50 2015 +0900: staging: wilc1000: remove _tstrJoinParam from join_bss_param
+e0a122178bb0: Leo Kim Mon Oct 12 16:55:49 2015 +0900: staging: wilc1000: remove typedef from tstrJoinBssParam
+c0dba8d3bbda: Leo Kim Mon Oct 12 16:55:48 2015 +0900: staging: wilc1000: remove unused struct tstrBssTable
+fa2ce581c958: Leo Kim Mon Oct 12 16:55:47 2015 +0900: staging: wilc1000: remove unused struct tstrWidJoinReqExt
+900bb4a6523e: Leo Kim Mon Oct 12 16:55:46 2015 +0900: staging: wilc1000: rename the member variable, ps8WidVal of wid
+2fd3e4435437: Leo Kim Mon Oct 12 16:55:45 2015 +0900: staging: wilc1000: rename the member variable, s32ValueSize of wid
+daaf16babf75: Leo Kim Mon Oct 12 16:55:44 2015 +0900: staging: wilc1000: rename the member variable, u16WIDid of wid
+416d8321f597: Leo Kim Mon Oct 12 16:55:43 2015 +0900: staging: wilc1000: rename the member variable, enuWIDtype of wid
+20212c033aff: Leo Kim Mon Oct 12 16:55:42 2015 +0900: staging: wilc1000: remove typedef from tenuWIDtype
+e9e0c260996f: Leo Kim Mon Oct 12 16:55:41 2015 +0900: staging: wilc1000: remove typedef from tstrWID
+684125a25e46: Tony Cho Mon Oct 12 16:55:40 2015 +0900: staging: wilc1000: change parameter names in send_config_pkt
+033622862c5a: Tony Cho Mon Oct 12 16:55:39 2015 +0900: staging: wilc1000: remove bool bRespRequired from send_config_pkt
+aaed3290f9ff: Leo Kim Mon Oct 12 16:55:38 2015 +0900: staging: wilc1000: wilc_wfi_cfgoperations.c : removes unused local variables
+b68d820bb5f4: Leo Kim Mon Oct 12 16:55:37 2015 +0900: staging: wilc1000: host_interface.c : removes unused local variables
+2482a79f48e5: Leo Kim Mon Oct 12 16:55:36 2015 +0900: staging: wilc1000: rename the member variable, drvHandler of host_if_msg
+441dc609da9d: Leo Kim Mon Oct 12 16:55:35 2015 +0900: staging: wilc1000: remove typedef from tstrWILC_WFIDrv
+2a02a3415cf4: Leo Kim Mon Oct 5 15:25:53 2015 +0900: staging: wilc1000: host_interface.c : remove unused functions
+feea5c4121cf: Leo Kim Mon Oct 5 15:25:52 2015 +0900: staging: wilc1000: remove unused functions
+e4bc3d677e53: Leo Kim Mon Oct 5 15:25:51 2015 +0900: staging: wilc1000: wilc_wfi_cfgoperations.c : remove unused functions
+fc1848acb93b: Leo Kim Mon Oct 5 15:25:50 2015 +0900: staging: wilc1000: rename tWILCpfRemainOnChanReady
+fdc22a49b1c0: Leo Kim Mon Oct 5 15:25:49 2015 +0900: staging: wilc1000: rename tWILCpfRemainOnChanExpired
+430a78cf7723: Leo Kim Mon Oct 5 15:25:48 2015 +0900: staging: wilc1000: remove typedef from CURRENT_TX_RATE_T
+073b8d0ca73c: Leo Kim Mon Oct 5 15:25:47 2015 +0900: staging: wilc1000: remove typedef from SITE_SURVEY_T
+9529650a55f6: Leo Kim Mon Oct 5 15:25:46 2015 +0900: staging: wilc1000: remove typedef from tstrCfgParamVal
+cd1e6cb4c9e1: Leo Kim Mon Oct 5 15:25:45 2015 +0900: staging: wilc1000: remove typedef from tstrHostIFpmkid
+a949f9095d29: Leo Kim Mon Oct 5 15:25:44 2015 +0900: staging: wilc1000: remove typedef from tstrHostIFpmkidAttr
+4372d3d3c9d1: Leo Kim Mon Oct 5 15:25:43 2015 +0900: staging: wilc1000: remove typedef from tstrHostIFwpaAttr
+c276c44aacb6: Leo Kim Mon Oct 5 15:25:42 2015 +0900: staging: wilc1000: remove typedef from tstrHostIFwepAttr
+40cc2c90adfc: Leo Kim Mon Oct 5 15:25:41 2015 +0900: staging: wilc1000: remove typedef from tuniHostIFkeyAttr
+b9d963333de7: Leo Kim Mon Oct 5 15:25:40 2015 +0900: staging: wilc1000: remove typedef from tenuKeyType
+841dfc428dc0: Leo Kim Mon Oct 5 15:25:39 2015 +0900: staging: wilc1000: remove typedef from AUTHTYPE_T
+b6ab85fe61f7: Leo Kim Mon Oct 5 15:25:38 2015 +0900: staging: wilc1000: rename tWILCpfConnectResult
+607db44794ee: Leo Kim Mon Oct 5 15:25:37 2015 +0900: staging: wilc1000: remove typedef from tstrHiddenNetwork
+ba1d1a695e90: Leo Kim Mon Oct 5 15:25:36 2015 +0900: staging: wilc1000: rename tWILCpfScanResult
+b0c1e80e42d7: Tony Cho Mon Oct 5 13:50:46 2015 +0900: staging: wilc1000: rename strHostIFDelAllSta
+e60831e9749b: Tony Cho Mon Oct 5 13:50:45 2015 +0900: staging: wilc1000: rename pUserData
+5c4008dba721: Tony Cho Mon Oct 5 13:50:44 2015 +0900: staging: wilc1000: rename strHostIfRegisterFrame
+9cdf6e7bd3f8: Glen Lee Fri Oct 2 14:22:12 2015 +0900: staging: wilc1000: remove unused variable real_ndev
+814bc36807e2: Glen Lee Fri Oct 2 14:22:11 2015 +0900: staging: wilc1000: remove function pointer cfg_init
+30f535a673d0: Glen Lee Fri Oct 2 14:22:10 2015 +0900: staging: wilc1000: remove function pointer rx_indicate
+355cca2ab21b: Glen Lee Fri Oct 2 14:22:09 2015 +0900: staging: wilc1000: remove function pointer cfg_wid_get_val
+ec1b86bf6a47: Glen Lee Fri Oct 2 14:22:08 2015 +0900: staging: wilc1000: remove function pointer cfg_wid_get
+17e8f16554f2: Glen Lee Fri Oct 2 14:22:07 2015 +0900: staging: wilc1000: remove function pointer cfg_wid_set
+66482a564250: Glen Lee Fri Oct 2 14:22:06 2015 +0900: staging: wilc1000: Delete undefined DEBUG_MODE and it's related codes
+28dedb807039: Glen Lee Fri Oct 2 14:22:05 2015 +0900: staging: wilc1000: wilc_wfi_netdevice.h: remove unused variables
+fdf33a76972c: Tony Cho Fri Oct 2 14:22:04 2015 +0900: staging: wilc1000: coreconfigurator.c: remove unused struct
+9dd2f7719d26: Tony Cho Fri Oct 2 14:22:03 2015 +0900: staging: wilc1000: remove typedef from enum
+c9d4834d94c5: Glen Lee Thu Oct 1 16:03:43 2015 +0900: staging: wilc1000: remove function pointer wlan_add_mgmt_to_tx_que
+894de36b1ae8: Glen Lee Thu Oct 1 16:03:42 2015 +0900: staging: wilc1000: remove function pointer wlan_cfg_get_value
+07056a85078a: Glen Lee Thu Oct 1 16:03:41 2015 +0900: staging: wilc1000: remove function pointer wlan_cfg_get
+1028e5a4045f: Glen Lee Thu Oct 1 16:03:40 2015 +0900: staging: wilc1000: remove function pointer wlan_cfg_set
+1d4469c945bc: Glen Lee Thu Oct 1 16:03:39 2015 +0900: staging: wilc1000: delete define ACTION and PROBE_REQ
+a17e2ec1ef68: Glen Lee Thu Oct 1 16:03:38 2015 +0900: staging: wilc1000: remove function pointer wlan_cleanup
+46ca80cd16f6: Glen Lee Thu Oct 1 16:03:37 2015 +0900: staging: wilc1000: remove function pointer wlan_handle_rx_isr
+f590c4ce1703: Glen Lee Thu Oct 1 16:03:36 2015 +0900: staging: wilc1000: remove function pointer wlan_handle_tx_que
+8fc84a6f6496: Glen Lee Thu Oct 1 16:03:35 2015 +0900: staging: wilc1000: remove function pointer wlan_add_to_tx_que
+8cec741e4aee: Glen Lee Thu Oct 1 16:03:34 2015 +0900: staging: wilc1000: remove function pointer wlan_stop
+e42563bbb223: Glen Lee Thu Oct 1 16:03:33 2015 +0900: staging: wilc1000: remove function pointer wlan_start
+63d7ab8efd4d: Glen Lee Thu Oct 1 16:03:32 2015 +0900: staging: wilc1000: remove function pointer wlan_firmware_download
+070d365c3d54: Tony Cho Wed Sep 30 18:55:10 2015 +0900: staging: wilc1000: rename strHostIfRemainOnChan
+c833b4748a04: Tony Cho Wed Sep 30 18:55:09 2015 +0900: staging: wilc1000: rename strHostIfBASessionInfo
+a58486952151: Tony Cho Wed Sep 30 18:55:08 2015 +0900: staging: wilc1000: rename strHostIfGetMacAddress
+15326e281cf0: Tony Cho Wed Sep 30 18:55:07 2015 +0900: staging: wilc1000: rename strHostIfSetMacAddress
+00c4630e3dda: Tony Cho Wed Sep 30 18:55:06 2015 +0900: staging: wilc1000: rename strHostIfSetOperationMode
+a079cf4d5e3f: Tony Cho Wed Sep 30 18:55:05 2015 +0900: staging: wilc1000: rename strHostIfSetMulti
+fb2d65ed73df: Tony Cho Wed Sep 30 18:44:39 2015 +0900: staging: wilc1000: rename strHostIfSetIP
+5e4377e6ecd9: Tony Cho Wed Sep 30 18:44:38 2015 +0900: staging: wilc1000: rename strHostIfSetDrvHandler
+66bac7f20c5e: Tony Cho Wed Sep 30 18:44:37 2015 +0900: staging: wilc1000: rename strHostIfStaInactiveT
+49e1f81b1e49: Tony Cho Wed Sep 30 18:44:36 2015 +0900: staging: wilc1000: rename strPowerMgmtparam
+df0e7839ab7e: Tony Cho Wed Sep 30 18:44:35 2015 +0900: staging: wilc1000: remove struct timer_cb
+4a930962b03b: Tony Cho Wed Sep 30 18:44:34 2015 +0900: staging: wilc1000: rename strEditStaParam
+889c25bee9f5: Tony Cho Wed Sep 30 18:44:33 2015 +0900: staging: wilc1000: rename strDelStaParam
+ca8f47f8d50b: Tony Cho Wed Sep 30 18:44:32 2015 +0900: staging: wilc1000: rename strAddStaParam
+a98491e50d9a: Tony Cho Wed Sep 30 18:44:31 2015 +0900: staging: wilc1000: rename strHostIFSetBeacon
+7f33fecde162: Tony Cho Wed Sep 30 18:44:30 2015 +0900: staging: wilc1000: rename struct set_beacon
+80bf8836bf76: Tony Cho Wed Sep 30 18:44:29 2015 +0900: staging: wilc1000: remove struct del_beacon
+ffd6dbc86940: Tony Cho Wed Sep 30 18:44:28 2015 +0900: staging: wilc1000: rename strHostIFSetChan
+94bdfe4243df: Tony Cho Wed Sep 30 18:44:27 2015 +0900: staging: wilc1000: rename struct set_channel
+3962e1c4567b: Tony Cho Wed Sep 30 18:44:26 2015 +0900: staging: wilc1000: remove struct get_channel
+a2340c36ffb0: Tony Cho Wed Sep 30 18:44:25 2015 +0900: staging: wilc1000: rename strHostIFCfgParamAttr
+18990bfe4c82: Tony Cho Wed Sep 30 18:44:24 2015 +0900: staging: wilc1000: rename strHostIFkeyAttr
+66add622128e: Tony Cho Wed Sep 30 18:44:23 2015 +0900: staging: wilc1000: rename strRcvdGnrlAsyncInfo
+02d1946002a3: Tony Cho Wed Sep 30 18:44:22 2015 +0900: staging: wilc1000: rename strRcvdNetworkInfo
+3f501971b72b: Tony Cho Wed Sep 30 18:44:21 2015 +0900: staging: wilc1000: rename strHostIFconnectAttr
+4528bdb5d26f: Tony Cho Wed Sep 30 18:44:20 2015 +0900: staging: wilc1000: rename strHostIFscanAttr
+6011b7796e8f: Tony Cho Wed Sep 30 18:44:19 2015 +0900: staging: wilc1000: remove AGING_ALG
+50f415203085: Tony Cho Wed Sep 30 18:44:18 2015 +0900: staging: wilc1000: remove PLL_WORKAROUND
+a5a45ba27387: Tony Cho Mon Sep 21 12:17:03 2015 +0900: staging: wilc1000: delete unnecessary comments and dead code
+903b4d31c811: Tony Cho Mon Sep 21 12:17:02 2015 +0900: staging: wilc1000: remove u32Intialized which is unnecessary
+6ddea5964160: Tony Cho Mon Sep 21 12:17:01 2015 +0900: staging: wilc1000: remove unnecessary global variable
+b4e644e48c39: Tony Cho Mon Sep 21 12:17:00 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFDelAllSta
+bc37c5dfba7d: Tony Cho Mon Sep 21 12:16:59 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfRegisterFrame
+2f9c03f5216f: Tony Cho Mon Sep 21 12:16:58 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfRemainOnChan
+fb93a1e1be67: Tony Cho Mon Sep 21 12:16:57 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFDelSta
+54265472bf3e: Tony Cho Mon Sep 21 12:16:56 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfBASessionInfo
+fcd27c5f658b: Tony Cho Mon Sep 21 12:16:55 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfGetMacAddress
+b7611a87a938: Tony Cho Mon Sep 21 12:16:54 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfSetMacAddress
+801bee52a111: Tony Cho Mon Sep 21 12:16:53 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfSetOperationMode
+641210ac1b9c: Tony Cho Mon Sep 21 12:16:52 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFSetMulti
+127f9d9497aa: Tony Cho Mon Sep 21 12:16:51 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfSetDrvHandler
+15191eaf4ef2: Tony Cho Mon Sep 21 12:16:50 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFSetIPAddr
+3d1eac048dee: Tony Cho Mon Sep 21 12:16:49 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfStaInactiveT
+5a008f1cd3d4: Tony Cho Mon Sep 21 12:16:48 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIfPowerMgmtParam
+525819340a5b: Tony Cho Mon Sep 21 12:16:47 2015 +0900: staging: wilc1000: remove typedef from the struct tstrTimerCb
+6a89ba9cee53: Tony Cho Mon Sep 21 12:16:46 2015 +0900: staging: wilc1000: remove typedef from the struct tstrWILC_AddStaParam
+d0227fcbcc82: Tony Cho Mon Sep 21 12:16:45 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFDelBeacon
+902362b1f7f6: Tony Cho Mon Sep 21 12:16:44 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFSetBeacon
+29f84000740a: Tony Cho Mon Sep 21 12:16:43 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFGetChan
+326b323d012b: Tony Cho Mon Sep 21 12:16:42 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFSetChan
+361ff841ff19: Tony Cho Mon Sep 21 12:16:41 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFCfgParamAttr
+c98387a5736e: Tony Cho Mon Sep 21 12:16:40 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFkeyAttr
+f23a9eabcbb0: Tony Cho Mon Sep 21 12:16:39 2015 +0900: staging: wilc1000: remove typedef from the struct tstrRcvdGnrlAsyncInfo
+3bbd59f5f5d8: Tony Cho Mon Sep 21 12:16:38 2015 +0900: staging: wilc1000: remove typedef from the struct tstrRcvdNetworkInfo
+120ae59385cc: Tony Cho Mon Sep 21 12:16:37 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFconnectAttr
+c476feb8d3e5: Tony Cho Mon Sep 21 12:16:36 2015 +0900: staging: wilc1000: remove typedef from the struct tstrHostIFscanAttr
+410c24899143: Tony Cho Mon Sep 21 12:16:35 2015 +0900: staging: wilc1000: rename uniHostIFmsgBody
+dfc7663ba27f: Tony Cho Mon Sep 21 12:16:34 2015 +0900: staging: wilc1000 remove typedef from the union
+a9f812a6d845: Tony Cho Mon Sep 21 12:16:33 2015 +0900: staging: wilc1000: rename u16MsgId
+143eb95abb4c: Tony Cho Mon Sep 21 12:16:32 2015 +0900: staging: wilc1000: rename strHostIFmsg
+3a8c41b50aa2: Tony Cho Fri Sep 18 18:11:04 2015 +0900: staging: wilc1000: remove typedef from the struct
+67dd5eb95203: Tony Cho Fri Sep 18 18:11:03 2015 +0900: staging: wilc1000: rename tstrHostIFmsg
+d59177cb70bb: Glen Lee Thu Sep 17 17:47:25 2015 +0900: staging: wilc1000: remove do-nothing ifdef statement
+a87d792b3594: Glen Lee Thu Sep 17 17:47:24 2015 +0900: staging: wilc1000: remove define RX_BH_TYPE
+2602b2bf419c: Glen Lee Wed Sep 16 18:53:26 2015 +0900: staging: wicl1000: remove function pointer wlan_handle_rx_que
+d7ed06a3840c: Glen Lee Wed Sep 16 18:53:27 2015 +0900: staging: wilc1000: remove unused variable rxq_thread
+85718c2d6b7d: Glen Lee Wed Sep 16 18:53:25 2015 +0900: staging: wilc1000: remove unused semaphore and it's related codes
+51f8a39911c3: Glen Lee Wed Sep 16 18:53:24 2015 +0900: staging: wilc1000: remove variable rxq_thread_started
+ce25267907e1: Glen Lee Wed Sep 16 18:53:23 2015 +0900: staging: wilc1000: remove function linux_wlan_rxq_task
+25a84832bb66: Glen Lee Wed Sep 16 18:53:22 2015 +0900: staging: wilc1000: remove define TCP_ENHANCEMENTS and it's related code
+fcc6ef923037: Glen Lee Wed Sep 16 18:53:21 2015 +0900: staging: wilc1000: remove define WILC_P2P and ifdef line
+108b3439b7dd: Glen Lee Wed Sep 16 18:53:20 2015 +0900: staging: wilc1000: remove define WILC_AP_EXTERNAL_MLME and ifdef line
+6569738ad547: Leo Kim Wed Sep 16 18:36:04 2015 +0900: staging: wilc1000: remove wilc_errorsupport.h
+e6e12661d8e1: Leo Kim Wed Sep 16 18:36:03 2015 +0900: staging: wilc1000: replace wilc error types with the generic error types
+559e1a04e288: Leo Kim Wed Sep 16 18:36:02 2015 +0900: staging: wilc1000: remove definitions unused
+24db713fe532: Leo Kim Wed Sep 16 18:36:01 2015 +0900: staging: wilc1000: remove the macro WILC_ERRORREPORT
+7dc1d0cc1ffa: Leo Kim Wed Sep 16 18:36:00 2015 +0900: staging: wilc1000: remove the macro WILC_ERRORCHECK
+7ae433631eac: Leo Kim Wed Sep 16 18:35:59 2015 +0900: staging: wilc1000: remove a macro WILC_NULLCHECK
+c116299cff0c: Glen Lee Wed Sep 16 10:43:55 2015 +0900: staging: wilc1000: remove unused variable g_flushing_in_progress
+57c111a47210: Glen Lee Wed Sep 16 10:43:54 2015 +0900: staging: wilc1000: coreconfigurator.h: remove unused defines
+be6c212a6fc0: Glen Lee Wed Sep 16 10:43:53 2015 +0900: staging: wilc1000: delete function declaration SendRawPacket
+496a77257c67: Glen Lee Wed Sep 16 10:43:52 2015 +0900: staging: wilc1000: remove unused variables
+dd33a8651e2c: Glen Lee Wed Sep 16 10:43:51 2015 +0900: staging: wilc1000: delete unused global variables.
+b701da39edea: Glen Lee Wed Sep 16 10:43:50 2015 +0900: staging: wilc1000: remove unnecessary extern function declaration
+20f444910703: Glen Lee Wed Sep 16 10:43:49 2015 +0900: staging: wilc1000: remove unused defines
+d52979b3bbe4: Glen Lee Wed Sep 16 10:43:48 2015 +0900: staging: wilc1000: remove unnecessary define FIVE_GHZ_BAND
+d30244a032f2: Glen Lee Wed Sep 16 10:43:47 2015 +0900: staging: wilc1000: remove useless define PHY_802_11n
+2b4738c0b416: Tony Cho Wed Sep 16 10:43:46 2015 +0900: staging: wilc1000: remove PANDA_BOARD
+8fec2ee4fa58: Leo Kim Tue Sep 15 11:53:35 2015 +0900: staging: wilc1000: remove definition WILC_IS_ERR
+5da0a0706b4d: Glen Lee Fri Sep 11 12:04:20 2015 +0900: staging: wilc1000: coreconfigurator.c: remove unused functions
+a0462838c1c8: Glen Lee Thu Sep 10 18:26:29 2015 +0900: staging: wilc1000: remove unused enum
+7092b839e915: Tony Cho Thu Sep 10 18:26:28 2015 +0900: staging: wilc1000: remove unused global variables
+435ebabb305b: Tony Cho Thu Sep 10 18:26:27 2015 +0900: staging: wilc1000: remove firmware definition
+73d4ee746d61: Tony Cho Thu Sep 10 18:26:26 2015 +0900: staging: wilc1000: remove STATIC_MACADDRESS
+d36340917ae4: Glen Lee Thu Sep 10 12:03:05 2015 +0900: staging: wilc1000: delete wilc_memory.c and wilc_memory.h
+f3052587e31c: Glen Lee Thu Sep 10 12:03:04 2015 +0900: staging: wilc1000: remove kmalloc wrapper
+37b9d0303903: Tony Cho Thu Sep 10 11:59:11 2015 +0900: staging: wilc1000: remove BROKEN status
+780eb03eba84: Leo Kim Wed Sep 9 16:08:13 2015 +0900: staging: wilc1000: remove unused PLAT_RK3026_TCHIP
+721c98594783: Kim, Leo Tue Sep 8 17:08:03 2015 +0900: staging: wilc1000: delete definition USE_WIRELESS
+e89419bc9cde: Kim, Leo Tue Sep 8 17:08:02 2015 +0900: staging: wilc1000: remove unused NM73131_0_BOARD
+06b548638b39: Tony Cho Tue Sep 8 17:08:01 2015 +0900: staging: wilc1000: add maintainers for Atmel 802.11 driver
+3441847ee2f3: Johnny Kim Tue Sep 8 17:08:00 2015 +0900: staging: wilc1000: remove meaningless line
+c590b9a4c0ec: Johnny Kim Tue Sep 8 17:07:59 2015 +0900: staging: wilc1000: define undefined operation mode
+f638dd3918a4: Tony Cho Mon Sep 7 19:09:31 2015 +0900: staging: wilc1000: fix potential memory leak
+700db05372bf: Tony Cho Mon Sep 7 19:09:30 2015 +0900: staging: wilc1000: remove unused preprocessor definition
+1f39e10872c0: Tony Cho Mon Sep 7 19:09:29 2015 +0900: staging: wilc1000: remove dead codes
+d42ab0838d04: Johnny Kim Thu Aug 20 16:32:52 2015 +0900: staging: wilc1000: use id value as argument
+e5d57e917a8c: Johnny Kim Thu Aug 20 16:32:53 2015 +0900: staging: wilc1000: change address to fixed value
+53a84401883a: Johnny Kim Thu Aug 20 16:32:51 2015 +0900: staging: wilc1000: add an argument for Handle_SetWfiDrvHandler
+8a625cade3d4: Johnny Kim Thu Aug 20 16:32:50 2015 +0900: staging: wilc1000: use the real data type
+2b05df556e01: Johnny Kim Thu Aug 13 13:41:21 2015 +0900: staging: wilc1000: clarify the argument type
+11f58c88ddf8: Johnny Kim Thu Aug 13 13:41:20 2015 +0900: staging: wilc1000: change void pointer type to real type
+218dc407d4b2: Johnny Kim Thu Aug 13 13:41:19 2015 +0900: staging: wilc1000: replace WILC_WFIDrvHandle by tstrWILC_WFIDrv
+3369463284cf: Kim, Leo Tue Jul 28 17:47:39 2015 +0900: staging: wilc1000: remove unnecessary spcae
+4423f3b0d96a: Kim, Leo Tue Jul 28 17:47:38 2015 +0900: staging: wilc1000: remove warnings on the multiple blank lines uses
+fc4b95d69c60: Kim, Leo Tue Jul 28 17:47:37 2015 +0900: staging: wilc1000: remove braces {} for single statement blocks
+202f66a8169a: Tony Cho Tue Jul 28 17:47:35 2015 +0900: staging: wilc1000: remove unnecessary inner braces
+a0261e0b136b: Tony Cho Tue Jul 28 17:47:33 2015 +0900: staging: wilc1000: remove warnings on unnecessary braces
+1e553d542bf9: Jude.Lee Tue Jul 28 17:47:31 2015 +0900: staging: wilc1000: alignment should match open parenthesis
+232ced3d8fde: Jude.Lee Tue Jul 28 17:47:30 2015 +0900: staging: wilc1000: remove multiple blank lines
+51a5fcaf7187: Tony Cho Tue Jul 28 17:47:27 2015 +0900: staging: wilc1000: remove a dead preprocessor conditionals
+229d7402bd8f: Tony Cho Tue Jul 28 17:47:26 2015 +0900: staging: wilc1000: remove preprocessor conditionals unused
+4aa85772e3fa: Tony Cho Tue Jul 28 17:47:25 2015 +0900: staging: wilc1000: remove the warnings on unnecessary braces
+9c844693eaf3: Tony Cho Tue Jul 28 17:47:24 2015 +0900: staging: wilc1000: remove the warnings on missing blank line
+0dff54785f92: Tony Cho Tue Jul 28 17:47:23 2015 +0900: staging: wilc1000: remove warnings on the multiple line uses
+9690df3f9de3: Tony Cho Tue Jul 28 17:47:22 2015 +0900: staging: wilc1000: remove dead codes related to SIMULATION
+5f8966d91e2e: Tony Cho Tue Jul 28 17:47:21 2015 +0900: staging: wilc1000: describe the config symbol fully
+1625d2166cbc: Tony Cho Tue Jul 28 17:47:20 2015 +0900: staging: wilc1000: remove unnecessary files
