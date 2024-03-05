@@ -22,27 +22,27 @@
 - OpenAI retrieval augmented generation
     - 개요: chatgpt와 같은 LLM을 최선의 활용하기 위해 [Prompt engineering](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md) 기법 중 RAG (Retrieval Augmendted Generation) 기법을 활용하여 LLM에 폐쇄적인 지식 기반으로 응답할 수 있는 모델 구축
     - 언어/프레임워크/플랫폼: Python, markdown, FAISS, Chroma DB
-    - GitHub: https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md
+    - GitHub: [https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md](https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md)
 
 - Prompt engineering
-    - 개요: 다양한 분야에 언어모델(Language model)을 효율적으로 사용하기 위해 사용자의 쿼리방식을 개발하는 엔지니어링 분야 (참고: https://www.promptingguide.ai/)
+    - 개요: 다양한 분야에 언어모델(Language model)을 효율적으로 사용하기 위해 사용자의 쿼리방식을 개발하는 엔지니어링 분야 ([https://www.promptingguide.ai/](https://www.promptingguide.ai/))
     - 언어/프레임워크/플랫폼: Python, markdown
-    - GitHub: https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md
+    - GitHub: [https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md)
 
 - Pull Request reviewer
     - 개요: GitHub Pull request 전달 시 GutHub Action을 이용하여 LLM에게 PR 정보(commit된 파일과 변경된 소스)를 제공하고, LLM은 전달 된 PR 정보를 요약 및 리뷰하여 자동으로 PR description을 작성해주는 LLM 애플리케이션
     - 언어/프레임워크/플랫폼: Python, YAML, Dockerfile
-    - GitHub: https://github.com/backguru-t/pr-reviewe-with-github-actions
+    - GitHub: [https://github.com/backguru-t/pr-reviewe-with-github-actions](https://github.com/backguru-t/pr-reviewe-with-github-actions)
 
 **KT사 데브파일럿 프로젝트 개발 용역 수행**
 
 - 개요: KT 사내 클라우드 인프라 자동 구축, 백엔드/프런트엔드 애플리케이션 설계 및 개발과 아울러 통합 모니터링을 지원하는 표준 아키텍쳐 개발 플랫폼의 개발 용역 수행
 - 역할: Project Leader
-- 언어/프레임워크/플랫폼: 자바 스프링부트, Apache Airflow (https://airflow.apache.org/)
+- 언어/프레임워크/플랫폼: 자바 스프링부트, Apache Airflow ([https://airflow.apache.org/](https://airflow.apache.org/))
 
 **AIA 생명 보험 백엔드 서버 개발 프로젝트 용역 수행**
     
-- 개요: AIA생명 Vitality (https://www.aia.co.kr/ko/vitality.html) 애플리케이션 백엔드 서버 개발
+- 개요: AIA생명 [Vitality](https://www.aia.co.kr/ko/vitality.html) 애플리케이션 백엔드 서버 개발
 - 역할: Project Leader
 - 언어/프레임워크/플랫폼: 자바 스프링부트
 
@@ -75,7 +75,7 @@
 - 역할: Project Leader, 수석 엔지니어
 - 언어/프레임워크/플랫폼: node.js, 안드로이드, iOS
 - 플랫폼: AWS EC2, MQTT broker, MongoDB
-- 하드웨어: ESP8266 (https://www.espressif.com/) 기반의 Wi-fi 모듈 제작 및 업체 납품
+- 하드웨어: [ESP8266](https://www.espressif.com/) 기반의 Wi-fi 모듈 제작 및 업체 납품
 
 **스마트공장 모니터링 시스템 구축 프로젝트**
 
@@ -86,7 +86,7 @@
 **Atmel IEEE802.11 리눅스 커널 드라이버 maintainer**
 
 - 개요: Atmel 사 Wi-fi 리눅스 커널 드라이버 개발 및 Linux staging에 pull request 수행
-- 역할: 한국 Atmel wi-Fi 리눅스 커널 디바이스 드라이버 개발 및 maintainer로 Greg (https://en.wikipedia.org/wiki/Greg_Kroah-Hartman)에게 git pull request 전달하여 Linux staging 브랜치에 merge 작업을 진행 (2015년 ~ 2016년)
+- 역할: 한국 Atmel wi-Fi 리눅스 커널 디바이스 드라이버 개발 및 maintainer로 [Greg](https://en.wikipedia.org/wiki/Greg_Kroah-Hartman)에게 git pull request 전달하여 Linux staging 브랜치에 merge 작업을 진행 (2015년 ~ 2016년)
 - 언어: C language
 - Contrinution history (일부): 전체 contibution history는 첨부의 [history-full.csv](history-full.csv) 또는 [history-short.csv](history-short.csv) 참조
 
@@ -107,7 +107,7 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
 ```
 - [Microchip IEEE 802.11 b/g/n Linux kernel driver](https://www.microchip.com/en-us/product/ATWILC1000) 디바이스 드라이버 개발
 - [Microchip IEEE 802.11 b/g/n + BLE Linux kernel driver](https://www.microchip.com/en-us/product/ATWILC3000) 디바이스 드라이버 개발
-- GitHub: https://github.com/torvalds/linux/tree/master/drivers/net/wireless/microchip
+- GitHub: [https://github.com/torvalds/linux/tree/master/drivers/net/wireless/microchip](https://github.com/torvalds/linux/tree/master/drivers/net/wireless/microchip)
 
 **RTOS 기반 드바이스 드라이버 개발**
 
@@ -122,10 +122,10 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
 - [mbed OS3.0](https://os.mbed.com/mbed-os/)
     - 언어: C language
     - 애플리케이션: 아래와 같은 다수의 칩셋 드라이버 개발
-        - SAMD21: https://www.microchip.com/en-us/product/ATSAMD21E18
-        - ATWINC1500: https://www.microchip.com/en-us/product/ATWINC1500
-        - ATSAMW25: https://www.microchip.com/en-us/development-tool/ATSAMW25-XPRO
-        - SAMG55: https://www.microchip.com/en-us/product/ATSAMG55J19B
+        - [SAMD21](https://www.microchip.com/en-us/product/ATSAMD21E18)
+        - [ATWINC1500](https://www.microchip.com/en-us/product/ATWINC1500)
+        - [ATSAMW25](https://www.microchip.com/en-us/development-tool/ATSAMW25-XPRO)
+        - [SAMG55](https://www.microchip.com/en-us/product/ATSAMG55J19B)
 - [REX RTOS](https://en.wikipedia.org/wiki/REX_OS)
     - 언어: C language
     - 애플리케이션: [DVB-H](https://ko.wikipedia.org/wiki/DVB-H) 디바이스 드라이버 개발
