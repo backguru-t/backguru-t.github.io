@@ -121,7 +121,7 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
     - 애플리케이션: [DVB-T](https://ko.wikipedia.org/wiki/DVB-T), [ISDB-T](https://ko.wikipedia.org/wiki/ISDB), [DVB-H](https://ko.wikipedia.org/wiki/DVB-H) 드라이버 개발
 - [mbed OS3.0](https://os.mbed.com/mbed-os/)
     - 언어: C language
-    - 애플리케이션: 아래와 같은 다수의 칩셋 드라이버 개발
+    - 애플리케이션: 아래와 같은 다수의 microcontroller에서 무선 칩셋 드라이버 개발
         - [SAMD21](https://www.microchip.com/en-us/product/ATSAMD21E18)
         - [ATWINC1500](https://www.microchip.com/en-us/product/ATWINC1500)
         - [ATSAMW25](https://www.microchip.com/en-us/development-tool/ATSAMW25-XPRO)
