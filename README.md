@@ -70,9 +70,9 @@
 - 역할: Project Leader & 수석 엔지니어
 - 언어/프레임워크/플랫폼: 자바, 스프링부트, 파이썬, Azure
 
-**사물인터넷 융합 가전 사업 프로젝트**
+**사물인터넷 융합 산업/가전 사업 프로젝트**
 
-- 개요: IoT 공기 청정기 (애터미), IoT 산업용 에어콘/히터 (에어렉스) 및 헵시바 태양광 모니터링 시스템 백엔드 서버, wireless 디바이스 드라이버 및 안드로이드/iOS 애플리케이션 개발
+- 개요: [애터미 IoT 공기 청정기](http://www.atomyair.com/Introduce/convenience), [헵시바 IoT 산업용 에어콘/히터 (에어렉스)](https://www.airrexmall.co.kr/main/index) 및 [헵시바 태양광 모니터링 시스템 백엔드 서버 및 프런트엔드](https://www.hebsiba.co.kr/sub2_4.php), wireless 디바이스 드라이버 모듈 제작납품 및 안드로이드/iOS 애플리케이션 개발
 - 역할: Project Leader, 수석 엔지니어
 - 언어/프레임워크/플랫폼: node.js, 안드로이드, iOS
 - 플랫폼: AWS EC2, MQTT broker, MongoDB
