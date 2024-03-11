@@ -24,7 +24,7 @@
 
 ## 주요 프로젝트 상세
 
-**애플리케이션 현대화에 관련된 언어 모델 지원 기능 설계 및 개발 PoC 진행**
+### 애플리케이션 현대화에 관련된 언어 모델 지원 기능 설계 및 개발 PoC 진행
 
 - OpenAI retrieval augmented generation
     - 개요: chatgpt와 같은 LLM에 [Prompt engineering](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md) 기법 중 [RAG (Retrieval Augmendted Generation)](https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts) 기법을 활용하여 사내 혹은 전문적인 지식 기반으로 사용자 질의에 응답할 수 있는 모델 구축
@@ -41,42 +41,42 @@
     - 언어/프레임워크/플랫폼: Python, YAML, Dockerfile
     - GitHub: [https://github.com/backguru-t/pr-reviewe-with-github-actions](https://github.com/backguru-t/pr-reviewe-with-github-actions)
 
-**KT사 데브파일럿 프로젝트 개발 용역 수행**
+### KT사 데브파일럿 프로젝트 개발 용역 수행
 
 - 개요: KT 사내 클라우드 인프라 자동 구축, 백엔드/프런트엔드 애플리케이션 설계 및 개발과 아울러 통합 모니터링을 지원하는 표준 아키텍쳐 개발 플랫폼의 개발 용역 수행
 - 역할: Project Leader
 - 언어/프레임워크/플랫폼: 자바 스프링부트, Apache Airflow ([https://airflow.apache.org/](https://airflow.apache.org/))
 
-**AIA 생명 보험 백엔드 서버 개발 프로젝트 용역 수행**
+### AIA 생명 보험 백엔드 서버 개발 프로젝트 용역 수행
     
 - 개요: AIA생명 [Vitality](https://www.aia.co.kr/ko/vitality.html) 애플리케이션 백엔드 서버 개발
 - 역할: Project Leader
 - 언어/프레임워크/플랫폼: 자바 스프링부트
 
-**신한은행 비 금융서비스 MIZI 애플리케이션 기획 용역 수행**
+### 신한은행 비 금융서비스 MIZI 애플리케이션 기획 용역 수행
     
 - 개요: MZ세대를 타켓으로 온라인 클래스를 기반으로 커뮤니티를 제공하는 신한은행 미지 애플리케이션 서버 및 안드로이드, iOS 애플리케이션 개발 기획 용역 수행
 - 역할: Project Leader
 - 언어/프레임워크/플랫폼: 자바 스프링부트
 
-**SK C&C R&D 반도체 플랫폼 웹 서버 개발 프로젝트 용역 수행**
+### SK C&C R&D 반도체 플랫폼 웹 서버 개발 프로젝트 용역 수행
 
 - 개요: SK에서 진행된 반도체 공정 분석 시스템으로 백엔드 개발 진행
 - 역할: Project Leader
 - 언어/프레임워크/플랫폼: 자바 스프링부트, Azure
 
-**SK 실트론 Cloud 전환 프로젝트 설계 및 개발 용역 수행**
+### SK 실트론 Cloud 전환 프로젝트 설계 및 개발 용역 수행
 
 - 개요: SK 실트론 공장 운영 서비스 클라우드 전환 프로젝트 일부로 Jenkins 연동하여 빌드 및 배포 자동화 서비스 구축
 - 역할: Project Leader & 수석 엔지니어
 - 언어/프레임워크/플랫폼: 자바, jenkins, Ant, Azure
 
-**SK 이천 하이닉스 경영정보 서비스 클라우드 전환 프로젝트 설계 및 개발 용역 수행**
+### SK 이천 하이닉스 경영정보 서비스 클라우드 전환 프로젝트 설계 및 개발 용역 수행
 - 개요: SK 하이닉스 운영 서비스 DB 및 애플리케이션 modernization 작업의 일부로 온프레미스 서버를 Azure cloud로 전환하기 위한 설계 및 PoC 진행
 - 역할: Project Leader & 수석 엔지니어
 - 언어/프레임워크/플랫폼: 자바, 스프링부트, 파이썬, Azure
 
-**사물인터넷 융합 산업/가전 사업 프로젝트**
+### 사물인터넷 융합 산업/가전 사업 프로젝트
 
 - 개요: [애터미 IoT 공기 청정기](http://www.atomyair.com/Introduce/convenience), [헵시바 IoT 산업용 에어콘/히터 (에어렉스)](https://www.airrexmall.co.kr/main/index) 및 [헵시바 태양광 모니터링 시스템 백엔드 서버 및 프런트엔드](https://www.hebsiba.co.kr/sub2_4.php), wireless 디바이스 드라이버 모듈 제작납품 및 안드로이드/iOS 애플리케이션 개발
 - 역할: Project Leader, 수석 엔지니어
@@ -85,13 +85,13 @@
 - 하드웨어: [ESP8266](https://www.espressif.com/) 기반의 Wi-fi 모듈 제작 및 업체 납품
 
 
-**스마트공장 모니터링 시스템 구축 프로젝트**
+### 스마트공장 모니터링 시스템 구축 프로젝트
 
 - 개요: 공장 센서 데이터 시각화 솔루션 개발 용역 및 다수의 고객 지원 업무
 - 역할: Project Leader
 - 언어/프레임워크/플랫폼: 자바 스프링부트
 
-**Atmel IEEE802.11 리눅스 커널 드라이버 maintainer**
+### Atmel IEEE802.11 리눅스 커널 드라이버 maintainer
 
 - 개요: Atmel 사 Wi-fi 리눅스 커널 드라이버 개발 및 Linux staging에 pull request 수행
 - 역할: 한국 Atmel wi-Fi 리눅스 커널 디바이스 드라이버 개발 및 maintainer로 [Greg](https://en.wikipedia.org/wiki/Greg_Kroah-Hartman)에게 git pull request 전달하여 Linux staging 브랜치에 merge 작업을 진행 (2015년 ~ 2016년)
@@ -117,7 +117,7 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
 - [Microchip IEEE 802.11 b/g/n + BLE Linux kernel driver](https://www.microchip.com/en-us/product/ATWILC3000) 디바이스 드라이버 개발
 - GitHub: [https://github.com/torvalds/linux/tree/master/drivers/net/wireless/microchip](https://github.com/torvalds/linux/tree/master/drivers/net/wireless/microchip)
 
-**RTOS 기반 드바이스 드라이버 개발**
+### RTOS 기반 드바이스 드라이버 개발
 
 다음과 같은 RTOS 기반 플랫폼에서 [DVB-T](https://ko.wikipedia.org/wiki/DVB-T), [ISDB-T](https://ko.wikipedia.org/wiki/ISDB), [DVB-H](https://ko.wikipedia.org/wiki/DVB-H) 등 다수의 칩셋 드라이버 개발
 
@@ -138,7 +138,7 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
     - 언어: C language
     - 애플리케이션: [DVB-H](https://ko.wikipedia.org/wiki/DVB-H) 디바이스 드라이버 개발
 
-**주요 해외 현지 개발 업무**
+### 주요 해외 현지 개발 업무
 - 미국: 캘리포니아 Lake Forest 소재 NewportMedia Inc. 본사에서 다수의 NMI semiconductor 칩셋 드라이버 개발
 - 이집트: NewportMedia Inc. 카이로 연구소에서 DVB-T, ISDB-T 칩셋 드라이버 연구 개발
 - 중국: 심천, 상하이 등에서 Huawei, ZTE, Skyworth 등 다수의 중국 고객사 제품 개발
