@@ -2,6 +2,8 @@
 - [주요 경력](#주요-경력)
 - [주요 프로젝트 요약](#주요-프로젝트-요약)
 - [주요 프로젝트 상세](#주요-프로젝트-상세)
+- [주요 해외 현지 개발 업무](#주요-해외-현지-개발-업무)
+- [최근 관심사](#최근-관심사)
 - [자격증](#자격수료증)
 - [학력](#학력)
 
@@ -12,7 +14,7 @@
 - **NMI코리아(주)**: 수석 엔지니어, 2005년 1월 ~ 2016년 6월 (11년 5개월)
 
 ## 주요 프로젝트 요약
-- `2024년 1월 ~ 현재`: 효성중공업 SCADA, 예방진단 및 자산관리 통합 플랫폼 개발 사업 진행
+- `2024년 1월 ~ 현재`: 효성중공업 SCADA, 예방진단 및 자산관리 통합 플랫폼 개발 사업 진행 (기획, 설계, 디자인, PLC 통신 드라이버, 백엔드 서버, 프런트엔드 턴키 개발 과제)
 - `2023년 7월 ~ 2023년 12월`: 애플리케이션 현대화에 관련된 언어 모델 지원 기능 설계 및 개발 PoC 진행
 - `2022년 8월 ~ 2023년 6월`: KT사 데브파일럿 프로젝트 설계 및 개발 용역 수행
 - `2022년 4월 ~ 2022년 8월`: AIA 생명 보험 서버 개발 프로젝트 용역 수행
@@ -23,30 +25,12 @@
 - `2016년 6월 ~ 2020년 1월`: 사물인터넷 융합 가전 사업 및 스마트 공장 모니터링 시스템 구축 프로젝트 PL 및 서버 및 wi-fi 디바이스 드라이버 개발 업무 수행
 - `2005년 1월 ~ 2016년 5월`: 다수의 wirelees 리눅스 커널 드라이버 및 RTOS 기반 디바이스 드라이버 개발 업무 수행
 
-## 주요 관심사
-
-### 애플리케이션 현대화에 관련된 언어 모델 지원 기능 설계 및 개발 PoC 진행
-
-- OpenAI retrieval augmented generation
-    - 개요: chatgpt와 같은 LLM에 [Prompt engineering](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md) 기법 중 [RAG (Retrieval Augmendted Generation)](https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts) 기법을 활용하여 사내 혹은 전문적인 지식 기반으로 사용자 질의에 응답할 수 있는 모델 구축
-    - 언어/프레임워크/플랫폼: Python, markdown, FAISS, Chroma DB
-    - GitHub: [https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md](https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md)
-
-- Prompt engineering
-    - 개요: 다양한 분야에 언어모델(Language model)을 효율적으로 사용하기 위해 사용자의 쿼리방식을 개발하는 엔지니어링 분야 ([https://www.promptingguide.ai/](https://www.promptingguide.ai/))
-    - 언어/프레임워크/플랫폼: Python, markdown
-    - GitHub: [https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md)
-
-- Pull Request reviewer
-    - 개요: GitHub Pull request 전달 시 GutHub Action을 이용하여 LLM에게 PR 정보(commit된 파일과 변경된 소스)를 제공하고, LLM은 전달 된 PR 정보를 요약 및 리뷰하여 자동으로 PR description을 작성해주는 LLM 애플리케이션
-    - 언어/프레임워크/플랫폼: Python, YAML, Dockerfile
-    - GitHub: [https://github.com/backguru-t/pr-reviewe-with-github-actions](https://github.com/backguru-t/pr-reviewe-with-github-actions)
-
 ## 주요 프로젝트 상세
 
 ### 효성 중공업 전력설비 통합 시스템 개발 사업 진행
-- 개요: 효성중공업 전력설비 SCADA, 예방진단. 자산관리 애플리케이션 통합 플랫폼 개발 사업
-- 역할: 소프트웨어 아키텍처 설계 및 통합 플랫폼 서비스 기획
+
+- 개요: 효성중공업 전력설비 SCADA, 예방진단, 자산관리 애플리케이션 통합 플랫폼 개발 사업
+- 역할: 소프트웨어 아키텍처 설계 및 통합 플랫폼 서비스 기획, 기존에 C++, C# 등으로 개발되어 상용화되어 있는 모놀리식 소프트웨어 분석 및 주요 문제점 진단 그리고 MSA (Micro Service Architecture) 전환 설계
 - 언어/프레임워크/플랫폼: 자바 스프링부트, 리액트 등 다수 개발 언어 사용
 
 ### KT사 데브파일럿 프로젝트 개발 용역 수행
@@ -146,7 +130,7 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
     - 언어: C language
     - 애플리케이션: [DVB-H](https://ko.wikipedia.org/wiki/DVB-H) 디바이스 드라이버 개발
 
-### 주요 해외 현지 개발 업무
+## 주요 해외 현지 개발 업무
 - 미국: 캘리포니아 Lake Forest 소재 NewportMedia Inc. 본사에서 다수의 NMI semiconductor 칩셋 드라이버 개발
 - 이집트: NewportMedia Inc. 카이로 연구소에서 DVB-T, ISDB-T 칩셋 드라이버 연구 개발
 - 중국: 심천, 상하이 등에서 Huawei, ZTE, Skyworth 등 다수의 중국 고객사 제품 개발
@@ -156,6 +140,24 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
 - 이탈리아, 스위스: DVB-T/H 필드 테스트 및 디바이스 드라이버 개발
 - 프랑스: Atmel 현지 법인에서 Atmel Linux IEEE802.11 커널 드라이버 개발
 
+## 최근 관심사
+
+### 애플리케이션 현대화에 관련된 언어 모델 지원 기능 설계 및 개발 PoC 진행
+
+- OpenAI retrieval augmented generation
+    - 개요: chatgpt와 같은 LLM에 [Prompt engineering](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md) 기법 중 [RAG (Retrieval Augmendted Generation)](https://help.openai.com/en/articles/8868588-retrieval-augmented-generation-rag-and-semantic-search-for-gpts) 기법을 활용하여 사내 혹은 전문적인 지식 기반으로 사용자 질의에 응답할 수 있는 모델 구축
+    - 언어/프레임워크/플랫폼: Python, markdown, FAISS, Chroma DB
+    - GitHub: [https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md](https://github.com/backguru-t/openai/blob/master/examples/Langchain/README.md)
+
+- Prompt engineering
+    - 개요: 다양한 분야에 언어모델(Language model)을 효율적으로 사용하기 위해 사용자의 쿼리방식을 개발하는 엔지니어링 분야 ([https://www.promptingguide.ai/](https://www.promptingguide.ai/))
+    - 언어/프레임워크/플랫폼: Python, markdown
+    - GitHub: [https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md](https://github.com/backguru-t/openai/blob/master/examples/azure/prompt-engineering/README.md)
+
+- Pull Request reviewer
+    - 개요: GitHub Pull request 전달 시 GutHub Action을 이용하여 LLM에게 PR 정보(commit된 파일과 변경된 소스)를 제공하고, LLM은 전달 된 PR 정보를 요약 및 리뷰하여 자동으로 PR description을 작성해주는 LLM 애플리케이션
+    - 언어/프레임워크/플랫폼: Python, YAML, Dockerfile
+    - GitHub: [https://github.com/backguru-t/pr-reviewe-with-github-actions](https://github.com/backguru-t/pr-reviewe-with-github-actions)
     
 ## 자격/수료증
 - [AWS Certified DevOps Engineer - Professional](https://www.credly.com/badges/afab8c18-ed0e-4fe4-a08e-3c101b5d8e7f/public_url): issued by Amazon Web Services Training and Certification on July 15, 2023
