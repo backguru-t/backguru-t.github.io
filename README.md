@@ -2,7 +2,7 @@
 - [주요 경력](#주요-경력)
 - [주요 프로젝트 요약](#주요-프로젝트-요약)
 - [주요 프로젝트 상세](#주요-프로젝트-상세)
-- [주요 해외 현지 개발 업무](#주요-해외-현지-개발-업무)
+- [주요 해외 현지 개발 경험](#주요-해외-현지-개발-경험)
 - [최근 관심사](#최근-관심사)
 - [자격증](#자격수료증)
 - [학력](#학력)
@@ -142,7 +142,7 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
     - 언어: C language
     - 애플리케이션: [DVB-H](https://ko.wikipedia.org/wiki/DVB-H) 디바이스 드라이버 개발
 
-## 주요 해외 현지 개발 업무
+## 주요 해외 현지 개발 경험
 - `미국`: 캘리포니아 Lake Forest 소재 NewportMedia Inc. 본사에서 다수의 NewportMedia(NMI) semiconductor 칩셋 드라이버 개발 (ISDBT, DVBT, DVBH, Wifi)
 - `이집트`: NewportMedia Inc. 카이로 연구소에서 DVB-T, ISDB-T 칩셋 드라이버 연구 개발
 - `중국`: 심천, 상하이 등에서 Huawei, ZTE, Rockchip, Skyworth 등 다수의 중국 고객사 제품에 Wifi, ISDBT 등 리눅스 디바이스 드라이버 포팅
