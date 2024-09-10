@@ -181,7 +181,7 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
 
 ## 주요 개발 도구
 ### Git
-소스코드 버전 관리 시스템으로 2005년까지는 [SVN](https://tortoisesvn.net/)을 주로 사용하다가 2006년 이후 부터는 모든 프로젝트에 [Git](https://git-scm.com/)을 사용하고 있음. 현재 이 문서도 Git으로 이력 관리하고 있음.
+소스코드 버전 관리 시스템으로 2005년까지는 [SVN](https://tortoisesvn.net/)을 주로 사용하다가 2006년 이후 부터는 모든 프로젝트에 [Git](https://git-scm.com/)을 사용하고 있음. 특히 리눅스 개발을 진행하면서 거의 모든 프로젝트에 Git을 사용하기 시작함. 현재 이 문서도 Git으로 이력 관리하고 있음.
 
 ### Jira
 이슈 관리 시스템으로 2000년대 초반에는 [Readmine](https://www.redmine.org/)을 사용하다가 현재는 아틀라시안사의 [Jira](https://www.atlassian.com/ko/software/jira)를 거의 모든 프로젝트에 사용하고 있음.
