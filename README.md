@@ -6,6 +6,7 @@
 - [최근 관심사](#최근-관심사)
 - [자격증](#자격수료증)
 - [학력](#학력)
+- [주요개발도구](#주요-개발-도구)
 
 ## 주요 경력
 
@@ -23,7 +24,7 @@
 - `2020년 5월 ~ 2020년 12월`: SK 실트론 Cloud 전환 프로젝트 설계 및 개발 용역 수행
 - `2020년 2월 ~ 2020년 5월`: SK 이천 하이닉스 경영정보 서비스 클라우드 전환 프로젝트 설계 및 개발 용역 수행 
 - `2016년 6월 ~ 2020년 1월`: 사물인터넷 융합 가전 사업 및 스마트 공장 모니터링 시스템 구축 프로젝트 PL 및 서버 및 wi-fi 디바이스 드라이버 개발 업무 수행
-- `2005년 1월 ~ 2016년 5월`: 다수의 wirelees 리눅스 커널 드라이버 및 RTOS 기반 디바이스 드라이버 개발 업무 수행
+- `2005년 1월 ~ 2016년 5월`: Wirelees 802.11 리눅스 커널 드라이버 및 WinCE, Nucleus, REX, uCOS 등 RTOS 기반에서 DVBT, ISDBT, DVBH 디바이스 드라이버 개발 업무 수행
 
 ## 주요 프로젝트 상세
 
@@ -31,7 +32,11 @@
 #### 효성 중공업 전력설비 통합 시스템 개발 사업 진행
 
 - 개요: 효성중공업 전력설비 SCADA, 예방진단, 자산관리 애플리케이션 통합 플랫폼 개발 사업
-- 역할: 개발 계획서, 소프트웨어 아키텍처 및 사용자 요구사항 문서 작성, 소프트웨어 아키텍처 설계 및 통합 플랫폼 서비스 기획, 기존에 C++, C# 등으로 개발되어 상용화되어 있는 모놀리식 소프트웨어 분석 및 주요 문제점 진단 그리고 MSA (Micro Service Architecture) 전환 설계
+- 역할
+    - 개발 계획서 작성
+    - 소프트웨어 아키텍처 설계 및 사용자 요구사항 문서 작성
+    - 통합 시스템, SCADA 등 서비스 기획
+    - 기존에 C++, C# 등으로 개발되어 상용화되어 있는 모놀리식 소프트웨어 분석 및 주요 문제점 진단 및
 - 언어/프레임워크/플랫폼: 자바 스프링부트, 리액트 등 다수 개발 언어 사용
 
 #### KT사 데브파일럿 프로젝트 개발 용역 수행
@@ -73,15 +78,14 @@
 #### 사물인터넷 융합 산업/가전 사업 프로젝트
 
 - 주요 프로젝트
-    - [애터미 IoT 공기 청정기](http://www.atomyair.com/Introduce/convenience)
-    - [헵시바 IoT 산업용 에어콘/히터 (에어렉스)](https://www.airrexmall.co.kr/main/index)
-    - [헵시바 태양광 모니터링 시스템 백엔드 서버 및 프런트엔드](https://www.hebsiba.co.kr/sub2_4.php)
-    - Wireless 디바이스 드라이버 모듈 제작납품
-    - 안드로이드/iOS 애플리케이션 개발
+    - [애터미 IoT 공기 청정기](http://www.atomyair.com/Introduce/convenience) Wifi 드라이버 개발, Wifi 모듈 제작 및 납품, 안드로이드/iOS 모바일 앱 개발 및 납품
+    - [헵시바 IoT 산업용 에어콘/히터 (에어렉스)](https://www.airrexmall.co.kr/main/index) Wifi 드라이버 개발, 안드로이드/iOS 모바일 앱 개발 및 납품
+    - [헵시바 태양광 모니터링 시스템 백엔드 서버 및 프런트엔드](https://www.hebsiba.co.kr/sub2_4.php) Wifi 드라이버 개발, 안드로이드/iOS 모바일 앱 개발 및 납품
+        
 - 역할: Project Leader, 수석 엔지니어, Wireless 디바이스 드라이버 개발
 - 언어/프레임워크/플랫폼: C, C++, node.js, 안드로이드, iOS
 - 플랫폼: AWS EC2, MQTT broker, MongoDB
-- 하드웨어: [ESP8266](https://www.espressif.com/) 기반의 Wi-fi 모듈 제작 및 업체 납품
+- 하드웨어: [ESP8266](https://www.espressif.com/) 기반의 Wifi 모듈 제작 및 업체 납품
 
 
 #### 스마트공장 모니터링 시스템 구축 프로젝트
@@ -93,8 +97,8 @@
 ### [ **NMI코리아(주)** ] (2005년 1월 ~ 2016년 6월)
 #### Atmel IEEE802.11 리눅스 커널 드라이버 maintainer
 
-- 개요: Atmel 사 Wi-fi 리눅스 커널 드라이버 개발 및 Linux staging에 pull request 수행
-- 역할: 한국 Atmel wi-Fi 리눅스 커널 디바이스 드라이버 개발 및 maintainer로 [Greg](https://en.wikipedia.org/wiki/Greg_Kroah-Hartman)에게 git pull request 전달하여 Linux staging 브랜치에 merge 작업을 진행 (2015년 ~ 2016년)
+- 개요: Atmel 사 Wifi 리눅스 커널 드라이버 개발 및 Linux staging에 pull request 수행
+- 역할: 한국 Atmel Wifi 리눅스 커널 디바이스 드라이버 개발 및 maintainer로 [Greg](https://en.wikipedia.org/wiki/Greg_Kroah-Hartman)에게 git pull request 전달하여 Linux staging 브랜치에 Atmel wifi 리눅스 드라이버의 merge 작업을 진행 (2015년 ~ 2016년)
 - 언어: C language
 - Contribution history (일부): 전체 contribution history는 첨부의 [history-full.csv](data/history-full.csv) 또는 [history-short.csv](data/history-short.csv) 참조
 
@@ -139,14 +143,14 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
     - 애플리케이션: [DVB-H](https://ko.wikipedia.org/wiki/DVB-H) 디바이스 드라이버 개발
 
 ## 주요 해외 현지 개발 업무
-- 미국: 캘리포니아 Lake Forest 소재 NewportMedia Inc. 본사에서 다수의 NMI semiconductor 칩셋 드라이버 개발
-- 이집트: NewportMedia Inc. 카이로 연구소에서 DVB-T, ISDB-T 칩셋 드라이버 연구 개발
-- 중국: 심천, 상하이 등에서 Huawei, ZTE, Skyworth 등 다수의 중국 고객사 제품 개발
-- 대만: HTC등 대만 고객사 제품 개발
-- 일본: 교세라 등 다수의 고객사 제품 개발
-- 브라질: 삼성 브라질 현지 법인에서 DVB-H 칩셋 드라이버 개발 및 필드테스트
-- 이탈리아, 스위스: DVB-T/H 필드 테스트 및 디바이스 드라이버 개발
-- 프랑스: Atmel 현지 법인에서 Atmel Linux IEEE802.11 커널 드라이버 개발
+- `미국`: 캘리포니아 Lake Forest 소재 NewportMedia Inc. 본사에서 다수의 NewportMedia(NMI) semiconductor 칩셋 드라이버 개발 (ISDBT, DVBT, DVBH, Wifi)
+- `이집트`: NewportMedia Inc. 카이로 연구소에서 DVB-T, ISDB-T 칩셋 드라이버 연구 개발
+- `중국`: 심천, 상하이 등에서 Huawei, ZTE, Rockchip, Skyworth 등 다수의 중국 고객사 제품에 Wifi, ISDBT 등 리눅스 디바이스 드라이버 포팅
+- `대만`: HTC등 대만 고객사 제품 개발
+- `일본`: 교세라 등 다수의 ISDBT 고객사 제품 개발
+- `브라질`: 삼성 브라질 현지 법인에서 DVB-H 칩셋 드라이버 개발 및 필드테스트
+- `이탈리아`, `스위스`: DVB-T/H 필드 테스트 및 디바이스 드라이버 개발
+- `프랑스`: Atmel 현지 법인에서 Atmel Linux IEEE802.11 커널 드라이버 개발
 
 ## 최근 관심사
 
@@ -174,3 +178,13 @@ c1ec2c12a3f2: Glen Lee Tue Oct 20 17:13:58 2015 +0900: staging: wilc1000: CfgCon
 
 ## 학력
 - 수원대학교 전기전자정보통신공학부 학사 졸업: 1994 3월 ~ 2001 2월
+
+## 주요 개발 도구
+### Git
+소스코드 버전 관리 시스템으로 2005년까지는 [SVN](https://tortoisesvn.net/)을 주로 사용하다가 2006년 이후 부터는 모든 프로젝트에 [Git](https://git-scm.com/)을 사용하고 있음. 현재 이 문서도 Git으로 이력 관리하고 있음.
+
+### Jira
+이슈 관리 시스템으로 2000년대 초반에는 [Readmine](https://www.redmine.org/)을 사용하다가 현재는 아틀라시안사의 [Jira](https://www.atlassian.com/ko/software/jira)를 거의 모든 프로젝트에 사용하고 있음.
+
+### Confluence
+팀 내 지식 관리와 협업을 위해 문서 중심이 플랫폼으로 아틀라시안사의 [confluence](https://www.atlassian.com/ko/software/confluence)를 거의 모든 프로젝트에 사용하고 있음.
